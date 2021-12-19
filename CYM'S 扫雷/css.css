@@ -1,0 +1,96 @@
+* {margin: 0;padding:0;
+   
+    }
+
+#main {margin:8px auto;
+    text-align: center;
+    ;
+    
+ 
+}
+
+/* #main .btns {margin-bottom: 20px;} */
+
+#main .btns button {background-color: rgb(60, 179, 113);
+    outline: none;
+    border: none;
+    color: white;
+    padding: 6px 16px 6px;
+    font-size: 20px;
+    
+    margin: 0 20px 20px;
+    cursor: pointer;}
+
+
+
+#main .btns button.active {background-color: rgb(255, 0, 0);}
+
+table {border-spacing: 1.5px;
+    margin: 0 auto;
+    background-color: #c0c0c0;}
+
+td {width: 21px;
+    height: 21px;
+    background-color: #cccccc;
+    border: 2px solid;
+    border-color: #fff #a1a1a1 #a1a1a1 #fff;
+    font-weight: bold;}
+
+#main .info {margin-top: 20px;}
+
+#main .content {color: red;
+    margin-top: 20px;}
+
+#main .gameBox td.mines {background: url(picture/3.jpg) no-repeat;
+    background-size: cover;}
+
+td.zero {border-color: #cccccc;
+    background-color: #cccccc;}
+
+td.one {border-color: #cccccc;
+    background-color: #cccccc;
+    color: blue;}
+
+td.two {border-color: #cccccc;
+    background-color: #cccccc;
+    color: green;}
+
+td.three {border-color: #cccccc;
+    background-color: #cccccc;
+    color: #ff2600;}
+
+td.four {border-color: #cccccc;
+    background-color: #cccccc;
+    color: #93208f;}
+
+td.five {border-color: #cccccc;
+    background-color: #cccccc;
+    color: #ff7f29;}
+
+td.six {border-color: #cccccc;
+    background-color: #cccccc;
+    color: #ff3fff;}
+
+td.seven {border-color: #cccccc;
+    background-color: #cccccc;
+    color: #3fffbf;}
+
+td.eight {border-color: #cccccc;
+    background-color: #cccccc;
+    color: #22ee0f;}
+
+td.seven {background-color: coral;
+    border-color: #cccccc
+}
+
+td.click {background: #cccccc url(picture/1.png);
+    background-size: cover;}  
+ /* 点击出现雷的样式 */
+
+.main {background: #c0c0c0 url(picture/3.jpg);
+    background-size: cover;
+    border-color: #cccccc;}
+     /* 显示的雷样式 */
+
+.flag {background: #c0c0c0 url(picture/2.gif);
+    background-size: cover;} /* 右击出现小红旗 */
